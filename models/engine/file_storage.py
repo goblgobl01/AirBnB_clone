@@ -52,6 +52,7 @@ class FileStorage:
         """
         deserializes the JSON file to __objects
         """
+        from models.base_model import BaseModel
         try:
             with open(FileStorage.__file_path, 'r') as file:
                 data = json.load(file)
