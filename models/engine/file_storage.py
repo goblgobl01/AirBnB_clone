@@ -69,3 +69,5 @@ class FileStorage:
 
         except FileNotFoundError:
             pass
+        except json.JSONDecodeError:
+            pass
