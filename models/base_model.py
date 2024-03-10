@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-a script that represent the baseModel class.
+a script that represents the baseModel class.
 """
 import datetime
 import uuid
@@ -11,7 +11,6 @@ class BaseModel:
     """
     BaseModel class represents the basemodel for all other classes.
     """
-
     def __init__(self, *args, **kwargs):
         """
         Initializes a new instance of the BaseModel class.

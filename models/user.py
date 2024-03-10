@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-a script that defines the class User
+Module for user.py
 """
 
 from models.base_model import BaseModel
@@ -8,9 +8,9 @@ from models.base_model import BaseModel
 
 class User(BaseModel):
     """
-    class User
+    User class
     attributes:
-    the user's email, password, first name and last name
+        the user's email, password, first name and last name
     """
     email = ""
     password = ""
