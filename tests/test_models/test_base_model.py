@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Module of Unittests """
+""" Module of Unittests for basemodel"""
 import unittest
 from models.base_model import BaseModel
 import os
@@ -44,6 +44,7 @@ class BaseModelTests(unittest.TestCase):
 
         self.assertEqual(first_dict['created_at'], sec_dict['created_at'])
         self.assertNotEqual(first_dict['updated_at'], sec_dict['updated_at'])
+
 
 if __name__ == '__main__':
     unittest.main()
